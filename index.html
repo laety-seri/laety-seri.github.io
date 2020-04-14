@@ -3,22 +3,32 @@
 <html>
     <head>
         <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="styles/style.css"/>
+        <link rel="stylesheet" href="style.css"/>
         <title> Mes repas </title>
     </head>
     <body>
+        <header>
         <h1>
             FOOD IS BAE 😍
-        </h1>
+        </h1> <br> <br> <br>
+        <nav>
+            <ol>
+                <li><a href=#>Mes recettes</a></li>
+                <li><a href=#>Discuter sur le blog</a></li>
+                <li><a href="#footer">Me contacter</a></li>
+            </ol>
+        </nav>
+        </header>
+        
         <p>
             Bonjour cher tous! Je vais partager avec vous les bons petits plats que je me fais à la maison. 😏
         </p>
-        <br>
-        <​h3​>
-           💥 Dans un 1er temps 
-        </​h3​>
+
+        <h3>
+            💥 Dans un 1er temps 
+        </h3>
         <p>
-            <br><br> <img alt="placali" src="20200406_135532.jpg" width="200" height="180"/> <i>PLACALI SAUCE GRAINE AVEC DJOUNGBLÉ DEDANS, FAIS MAISON !</i>
+            <img alt="placali" src="20200406_135532.jpg" width="200" height="180"/> <br> <i>lourd placali sauce graine djoungblé !</i>
             <br><br> <b>Ces évènements se sont déroulés le lundi 6 Avril 2020 entre 13h et 14h 😋 </b> 
             <br> C'était doux deh ❗
         </p>
@@ -27,8 +37,20 @@
             💥 Dans un 2e temps
         </h3>
         <p>
-            <img alt="alloco" src="20200405_113239.jpg" width="200" height="200"/> <i> Chic alloco fait maison hein !</i>
+            <img alt="alloco" src="20200405_113239.jpg" width="200" height="200"/> <br> <i> Chic alloco fait maison hein !</i>
             <br><br> <b>Les événements-ci se sont déroulés le Dimanche 6 Avril 2020 entre 11h et 12h du matin <b> 😍
         </p>
+        <br> <br>
+        <footer id="footer">
+            <form method="POST" action="#">
+                    <label for="nom"> Entrez votre Nom </label>
+                    <input type="text" name="nom" id="nom" required="required"/> <br><br>
+                    <label for="mail"> Entrez votre mail </label>
+                    <input type="email" name="mail" id="mail" required="required"/> <br><br>
+                    <label for="commentaire"> Laissez votre commentaire ici !</label>
+                    <textarea name="commentaire" id="commentaire" required="required"></textarea> <br><br>
+                    <input type="submit" value="Envoyer"/>
+            </form>
+        </footer>
     </body>
 </html>

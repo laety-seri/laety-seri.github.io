@@ -1,0 +1,56 @@
+header{
+    background-image:
+             url("assiette-vide-couteau-fourchette-vue-dessus_44943-187.JPG");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+  }
+
+
+h1{
+    font-size: 80px;
+    font-family: cursive;
+}
+
+img{
+
+width: 350px;
+height: 350px;
+}
+  
+body {
+    background-color: rgb(186, 247, 247);
+    text-align: center;
+};
+
+nav ol{
+    padding: 0%;
+    margin-left: 300px;
+    margin-right: 450px;
+    list-style-type: none;
+    background-color: #333333;
+}
+
+nav li{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    line-height: 40px;
+
+}
+nav li :hover{
+    background-color: #3388bb;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+footer{
+    background-color: grey;
+}
